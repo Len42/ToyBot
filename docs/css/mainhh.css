@@ -1,0 +1,87 @@
+body {
+	max-width: 240px; /*DEBUG - for testing on desktop */
+	font-size: 10px;
+	line-height: 120%;
+}
+
+#header {
+	background: rgb(51,103,153);
+	padding: 5px 2px 1px 2px;
+}
+
+#main {
+	padding: 0 2px 0 2px;
+	margin: 5px 0 0 0;
+}
+
+#footer {
+	font-size: 1em;
+	padding: 0 2px 0 2px;
+	margin: 5px 0 5px 0;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+h1 {
+	font-size: 1.2em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#main h1 {
+	background: url(dings.gif) no-repeat center left;
+	padding-left: 12px;
+}
+
+h2 {
+	font-size: 1.1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#main h2 {
+	background: url(dings.gif) no-repeat center left;
+	padding-left: 12px;
+}
+
+h3 {
+	font-size: 1.0em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#main h3 {
+	background: none;
+	padding-left: 0;
+}
+
+ul {
+	padding-left: 25px;
+	margin-left: 0;
+	margin-top: 0;
+}
+ol {
+	margin-top: 0;
+}
+dl {
+	margin-top: 0;
+}
+dt {
+	margin-top: 0.3em;
+	margin-left: 14px;
+}
+dd {
+	margin-left: 14px;
+}
+
+ul.linkline {
+	margin: 0.5em 0;
+}
+
+/* Don't try to float these on a teeny tiny screen. */
+.floatblock {
+	float: none;
+}
